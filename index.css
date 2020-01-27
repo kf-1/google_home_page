@@ -33,4 +33,80 @@
     outline:none;
     } 
 
+    .logo {
+        display: block;
+        display: relative;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 125px;
+        width: 700px;
+    }
+    
+    #container {
+        width: 100%;
+        max-height: 1700px;
+    }
+    
+    .content {
+        text-align: center;
+    }
+    
+    
+    
+    .content p {
+        margin-top: 22px;
+    }
+    
+    .search {
+        width: 400px;
+        height: 45px;
+        border: 1px solid #dfe1e5;
+        border-radius: 25px;
+        background: white;
+        color: black;
+        font-size: 16px;
+        padding:0 100px 0 0;
+    }
+    
+    .search:focus, .search:hover {
+        outline: none;
+        box-shadow: 0 1px 6px 0 #d3d3d4;
+    }
+    
+    .searchbar {
+        position: relative;
+    }
+    
+    .searchbar .magnify, .searchbar .mic {
+        position: relative;
+    }
+    
+    .searchbar .magnify {
+        left: 45px;
+        width: 25px;
+        top: 10px;
+    }
+    
+    .searchbar .mic {
+        height: 20px;
+        width: 20px;
+        right: 43px;
+        top: 5px;
+    }
+    
+    
+    .buttons{
+        margin-top: 25px;
+    }
+     
+    .buttons input {
+        background: rgb(242, 242, 242);
+        border: 1px solid rgb(242, 242, 242);
+        font-size: 14px;
+        color: #5F6368;
+        margin: 5px 5px;
+        border-radius: 4px;
+        height: 36px;
+        width: 135px;
+    }
     
