@@ -109,4 +109,41 @@
         height: 36px;
         width: 135px;
     }
+
+    #footer {
+        min-width: 980px;
+        width: 100%;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        background-color: #f2f2f2;
+    }
+    
+    .top-footer {
+        margin: 1px 0 0 30px;
+        padding: 10px 0 10px 27px;
+        color: rgb(105, 105, 105);
+        border-top: 1px solid rgb(219, 219, 219);
+        font-size: 15px;
+    }
+    
+    .bottom-footer {
+        border-top: 1px solid rgb(219, 219, 219);
+    }
+    
+    .left-footer a, .right-footer a {
+        display: inline-block;
+        color: rgb(105, 105, 105);
+        padding: 15px 0px 10px 20px;
+        font-weight: 100;
+    }
+    
+    .left-footer {
+        float: left;
+    }
+    
+    .right-footer {
+        float: right;
+        margin-right: 30px;
+    }
     
